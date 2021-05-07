@@ -18,6 +18,10 @@
 	outline: none;
 }
 
+i {
+	cursor: pointer;
+}
+
 body {
 	background-color: var(--primary-clr);
 	min-height: 100vh;
@@ -101,21 +105,21 @@ a.register:focus {
 	margin: 5rem 0 3rem 0;
 }
 
-.social-links .fab {
-	font-size: 1.5rem;
-	padding: 1rem 1.2rem;
+.social-links i {
+	font-size: 1.1rem;
+	padding: 0.8rem 1rem;
 	color: #fff;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	transition: all 300ms;
 }
 
-.social-links a:not(:last-child) {
+.social-links i:not(:last-child) {
 	margin-right: 1.2rem;
 }
 
-.social-links a:hover .fab,
-.social-links a:focus .fab {
+.social-links i:hover,
+.social-links i:focus {
 	color: hsl(319, 91%, 65%);
 	border-color: hsl(319, 91%, 65%);
 }
@@ -123,7 +127,7 @@ a.register:focus {
 .attribution {
 	color: #fff;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	padding-bottom: 1rem;
 }
 
@@ -156,7 +160,7 @@ a.register:focus {
 	}
 
 	header {
-		margin-bottom: 6.3rem;
+		margin-bottom: 5.4rem;
 	}
 
 	main {
@@ -194,16 +198,17 @@ a.register:focus {
 		font-size: 1.1rem;
 	}
 
-	.social-links {
-		justify-content: center;
+	.social-links i {
+		font-size: 1.3rem;
+		padding: 0.9rem 1.1rem;
+	}
+
+	.attribution {
+		font-size: 1.2rem;
 	}
 }
 
 @media screen and (min-width: 1150px) {
-	header {
-		margin-bottom: 5.6rem;
-	}
-
 	.main-details {
 		margin-top: 3rem;
 	}

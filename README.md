@@ -23,8 +23,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/mobile-first-introductory-section-using-css-grid-and-flexbox-K2PVeIyxF
+
+- Live Site URL: https://jhoellopeyemi.github.io/huddle-landing-page-with-single-introductory-section/
 
 ## My process
 
@@ -38,10 +39,9 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to position elements using CSS Grid and Flexbox.
+I learned more about positioning elements using CSS Grid and Flexbox.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@JhoellOpeyemi](https://www.frontendmentor.io/profile/JhoellOpeyemi)
+- Twitter - [@iam_jhoell](https://www.twitter.com/iam_jhoell)
