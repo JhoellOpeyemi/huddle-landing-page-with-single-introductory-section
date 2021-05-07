@@ -83,9 +83,11 @@ header {
 a.register {
 	display: inline-block;
 	background: #fff;
+	color: var(--primary-clr);
 	width: 60%;
 	border-radius: 3rem;
 	padding: 0.8rem 0;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1.1rem;
 	text-align: center;
 	text-decoration: none;
@@ -105,7 +107,7 @@ a.register:focus {
 	margin: 5rem 0 3rem 0;
 }
 
-.social-links i {
+.social-links .fab {
 	font-size: 1.1rem;
 	padding: 0.8rem 1rem;
 	color: #fff;
@@ -114,12 +116,12 @@ a.register:focus {
 	transition: all 300ms;
 }
 
-.social-links i:not(:last-child) {
+.social-links .fab:not(:last-child) {
 	margin-right: 1.2rem;
 }
 
-.social-links i:hover,
-.social-links i:focus {
+.social-links .fab:hover,
+.social-links .fab:focus {
 	color: hsl(319, 91%, 65%);
 	border-color: hsl(319, 91%, 65%);
 }
@@ -198,7 +200,7 @@ a.register:focus {
 		font-size: 1.1rem;
 	}
 
-	.social-links i {
+	.social-links .fab {
 		font-size: 1.3rem;
 		padding: 0.9rem 1.1rem;
 	}
